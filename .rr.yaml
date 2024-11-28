@@ -1,0 +1,7 @@
+version: "2.7"
+
+server:
+  command: "php worker.php"
+
+temporal:
+  address: "host.docker.internal:7233"

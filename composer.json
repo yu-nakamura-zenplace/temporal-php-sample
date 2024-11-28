@@ -1,0 +1,11 @@
+{
+    "name": "temporal/php-sample",
+    "autoload": {
+        "psr-4": {
+            "Temporal\\Samples\\": "src/"
+        }
+    },
+    "require": {
+        "temporal/sdk": "^2.11"
+    }
+}

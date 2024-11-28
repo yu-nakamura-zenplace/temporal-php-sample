@@ -1,0 +1,12 @@
+services:
+  app:
+    build: .
+    command: php client.php
+    volumes:
+      - .:/app
+
+  worker:
+    build: .
+    command: rr serve
+    volumes:
+      - .:/app
